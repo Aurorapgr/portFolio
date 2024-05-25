@@ -1,0 +1,83 @@
+@keyframes test {
+    from {transform: rotate(0deg);
+            }
+    to {transform: rotate(-360deg);}
+}
+@keyframes bgGrad {
+    from {background-position-x:0px;}
+    to{background-position-x:-1000px;}
+}
+@keyframes mobile {
+    from {width: 520px;
+            height: 215px;
+
+    }
+    to { width: 250px;
+         height: 360px;
+    }
+}
+@keyframes graf {
+    from {
+        top: 0px;
+        left: 0px;
+    }
+    to{
+        top: 63%;
+        left: 130px;
+    }
+}
+@keyframes intoImg {
+    from {  top: -50px;
+            opacity: 0;
+
+    }
+    to {    top: 0px;
+            opacity: 1;
+
+    }
+}
+.imgDemoAnim{
+    animation-name: intoImg;
+    animation-duration: 0.4s;
+    animation-delay: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+.presentation__interDiv{
+    animation-name: test;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+.master{
+    animation-name: bgGrad;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+.anima{
+    animation-name: mobile;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
+.animaGraf{
+    animation-name: graf;
+    animation-duration: 1s;
+    animation-delay: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+}
